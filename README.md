@@ -22,6 +22,7 @@ Octopus uses the following technologies:
 * JQuery / JQuery UI
 
 ![Component Diagram](https://github.com/rukavina/Octopus/blob/master/docs/images/demo/octopus-components.png?raw=true "Component Diagram")
+
 ![Database Model](/https://github.comrukavina/Octopus/blob/master/docs/images/demo/octopus-db.png?raw=true "Database Model")
 
 ## Installation
