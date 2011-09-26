@@ -23,7 +23,7 @@ Octopus uses the following technologies:
 
 ![Component Diagram](https://github.com/rukavina/Octopus/blob/master/docs/images/demo/octopus-components.png?raw=true "Component Diagram")
 
-![Database Model](/https://github.com/rukavina/Octopus/blob/master/docs/images/demo/octopus-db.png?raw=true "Database Model")
+![Database Model](https://github.com/rukavina/Octopus/blob/master/docs/images/demo/octopus-db.png?raw=true "Database Model")
 
 ## Installation
 
