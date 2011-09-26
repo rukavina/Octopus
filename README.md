@@ -7,9 +7,9 @@ Octopus is Zend Framework PHP web application for X10 Home Automation.
 Basically application manages scenes which can have a camera video as a background and X10 devices as widgets so you can execute commands directly from widgets.
 In the background there's a running engine based on RabbitMQ/Mochad which send/receives X10 "events" and handles them.
 
-![Octopus Scene]("/rukavina/Octopus/blob/master/docs/images/demo/octopus-def.png" "Example Scene with 3 Widgets")
+![Octopus Scene](https://github.com/rukavina/Octopus/blob/master/docs/images/demo/octopus-def.png "Example Scene with 3 Widgets")
 
-![Octopus Dialog]("/rukavina/Octopus/blob/master/docs/images/demo/octopus-dialog.png" "Widget Dialog")
+![Octopus Dialog](https://github.com/rukavina/Octopus/blob/master/docs/images/demo/octopus-dialog.png "Widget Dialog")
 
 
 Octopus uses the following technologies:
@@ -21,8 +21,8 @@ Octopus uses the following technologies:
 * PHP Zend Framework
 * JQuery / JQuery UI
 
-![Component Diagram]("/rukavina/Octopus/blob/master/docs/images/demo/octopus-components.png" "Component Diagram")
-![Database Model]("/rukavina/Octopus/blob/master/docs/images/demo/octopus-db.png" "Database Model")
+![Component Diagram](https://github.com/rukavina/Octopus/blob/master/docs/images/demo/octopus-components.png "Component Diagram")
+![Database Model](/https://github.comrukavina/Octopus/blob/master/docs/images/demo/octopus-db.png "Database Model")
 
 ## Installation
 
