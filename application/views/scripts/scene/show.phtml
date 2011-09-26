@@ -1,0 +1,30 @@
+<?php
+$widgetClasses = array('Octopus.Web.Scene','Octopus.Web.Device.X10.Switch','Octopus.Web.Device.X10.Lamp');
+
+$this->headScript()
+        ->appendFile('/js/tmpl.js')
+        ->appendFile('/js/Octopus/Web.js');
+$this->headLink()
+        ->appendStylesheet('/css/device.css')
+        ->appendStylesheet('/css/scene.css');
+
+//append widget js
+foreach ($widgetClasses as $class) {
+    $path = '/js/' . str_replace('.', '/', $class) . ".js";
+    $this->headScript()->appendScript("Octopus.Web.createNamespace('$class');");
+    $this->headScript()->appendFile($path);
+}
+?>
+
+<script type="text/javascript">
+    var sceneId = <?= $this->sceneId ?>;
+    
+    $(function(){
+        var sceneObject = new Octopus.Web.Scene($("#scene"),sceneId);
+        sceneObject.render();
+        window.setInterval(function(){
+            sceneObject.update();
+        }, 3000);
+    });
+</script>
+<div id="scene" class="scene"></div>

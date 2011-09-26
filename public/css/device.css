@@ -1,0 +1,51 @@
+.device{
+    position: absolute;
+    z-index: 5;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+}
+
+.device h3{
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 3px;
+    display: inline;
+    background-color: black;
+    color: white;
+}
+
+.device_button{
+    margin: auto;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+}
+
+.device_on{
+    background-image: url('../images/devices/x10/on.png');
+}
+
+.device_off{
+    background-image: url('../images/devices/x10/off.png');
+}
+
+.lamp_dialog{
+    display: none;
+}
+
+.lamp_dialog .slider{
+    height: 6em;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+.lamp_dialog .ui-slider-handle{
+    height: 6.4em;
+    width: 6.4em;
+}
